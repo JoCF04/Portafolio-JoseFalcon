@@ -211,8 +211,8 @@ a:hover {
 
 .stack-heading {
   font-family: var(--mono);
-  font-size: 0.69rem;
-  font-weight: 500;
+  font-size: 0.81rem;
+  font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--accent);
