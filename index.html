@@ -1,261 +1,359 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="José Falcón — Ingeniería de Sistemas, UPC. Desarrollo de software, análisis de datos y automatización de procesos.">
-  <title>José Falcón</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500;600;700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="José Falcón — Ingeniería de Sistemas, UPC. Desarrollo de software, análisis de datos y automatización de procesos.">
+<title>José Falcón</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;500;600;700&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <a href="#sobre-mi" class="skip-link">Ir al contenido principal</a>
+<a href="#sobre-mi" class="skip-link">Ir al contenido principal</a>
 
-  <header class="site-header">
-    <div class="container">
-      <div class="header-layout">
+<header class="site-header">
+<div class="container">
+<div class="header-layout">
 
-        <div class="header-id">
-          <h1 class="site-name">José Falcón</h1>
-          <p class="site-meta">Ingeniería de Sistemas &middot; 7mo ciclo &middot; UPC &middot; Lima, Perú</p>
-        </div>
+<div class="header-id">
+<h1 class="site-name">José Falcón</h1>
+<p class="site-meta" data-i18n="site-meta">Ingeniería de Sistemas &middot; 7mo ciclo &middot; UPC &middot; Lima, Perú</p>
+</div>
 
-        <address class="header-contact">
-          <a href="mailto:josedfalcon10@gmail.com">josedfalcon10@gmail.com</a>
-          <a href="https://github.com/JoCF04" target="_blank" rel="noopener noreferrer">github.com/JoCF04</a>
-          <a href="https://linkedin.com/in/jose-falcon-451487257" target="_blank" rel="noopener noreferrer">linkedin.com/in/jose-falcon-451487257</a>
-        </address>
+<div class="header-right">
+<address class="header-contact">
+<a href="mailto:josedfalcon10@gmail.com">josedfalcon10@gmail.com</a>
+<a href="https://github.com/JoCF04" target="_blank" rel="noopener noreferrer">github.com/JoCF04</a>
+<a href="https://linkedin.com/in/jose-falcon-451487257" target="_blank" rel="noopener noreferrer">linkedin.com/in/jose-falcon-451487257</a>
+</address>
+<button type="button" id="langToggle" class="lang-toggle" aria-label="Switch language / Cambiar idioma">EN</button>
+</div>
 
-      </div>
-    </div>
-  </header>
+</div>
+</div>
+</header>
 
-  <main>
+<main>
 
-    <section class="section" id="sobre-mi">
-      <div class="container">
-        <h2 class="section-label">Sobre mí</h2>
-        <div class="about-content">
-          <p class="about-text">
-            Estudiante de 7mo ciclo de Ingeniería de Sistemas en UPC. He liderado proyectos de desarrollo de software y análisis de datos aplicados a casos reales, trabajando en un rango que va desde backend y bases de datos hasta modelos predictivos y dashboards de gestión
-        </p>
-          <p class="about-lang">Inglés avanzado &mdash; Idiomas Católica</p>
-        </div>
-      </div>
-    </section>
+<section class="section" id="sobre-mi">
+<div class="container">
+<h2 class="section-label" data-i18n="label-about">Sobre mí</h2>
+<div class="about-content">
+<p class="about-text" data-i18n="about-text">
+Estudiante de 7mo ciclo de Ingeniería de Sistemas en UPC. He liderado proyectos de desarrollo de software y análisis de datos aplicados a casos reales, trabajando en un rango que va desde backend y bases de datos hasta modelos predictivos y dashboards de gestión
+</p>
+<p class="about-lang" data-i18n="about-lang">Inglés avanzado &mdash; Idiomas Católica</p>
+</div>
+</div>
+</section>
 
-    <section class="section section--alt" id="stack">
-      <div class="container">
-        <h2 class="section-label">Stack técnico</h2>
-        <div class="stack-grid">
+<section class="section section--alt" id="stack">
+<div class="container">
+<h2 class="section-label" data-i18n="label-stack">Stack técnico</h2>
+<div class="stack-grid">
 
-          <div class="stack-block">
-            <h3 class="stack-heading">Data Analytics &amp; BI</h3>
-            <ul class="stack-list">
-              <li>Power BI<span class="stack-note">dashboards, DAX</span></li>
-              <li>Excel avanzado<span class="stack-note">macros, tablas dinámicas</span></li>
-              <li>Indicadores de gestión</li>
-            </ul>
-          </div>
+<div class="stack-block">
+<h3 class="stack-heading" data-i18n="stack-h1">Data Analytics &amp; BI</h3>
+<ul class="stack-list">
+<li>Power BI<span class="stack-note">dashboards, DAX</span></li>
+<li>Excel avanzado<span class="stack-note" data-i18n="stack-note-excel">macros, tablas dinámicas</span></li>
+<li data-i18n="stack-kpi">Indicadores de gestión</li>
+</ul>
+</div>
 
-          <div class="stack-block">
-            <h3 class="stack-heading">Programación</h3>
-            <ul class="stack-list">
-              <li>Python<span class="stack-note">Pandas, NumPy, Scikit-Learn</span></li>
-              <li>JavaScript</li>
-              <li>TypeScript</li>
-              <li>C++/C#</li>
-            </ul>
-          </div>
+<div class="stack-block">
+<h3 class="stack-heading" data-i18n="stack-h2">Programación</h3>
+<ul class="stack-list">
+<li>Python<span class="stack-note">Pandas, NumPy, Scikit-Learn</span></li>
+<li>JavaScript</li>
+<li>TypeScript</li>
+<li>C++/C#</li>
+</ul>
+</div>
 
-          <div class="stack-block">
-            <h3 class="stack-heading">Backend &amp; Bases de datos</h3>
-            <ul class="stack-list">
-              <li>Java / Spring Boot<span class="stack-note">REST APIs</span></li>
-              <li>PostgreSQL</li>
-              <li>Supabase</li>
-              <li>SQL Server</li>
-            </ul>
-          </div>
+<div class="stack-block">
+<h3 class="stack-heading" data-i18n="stack-h3">Backend &amp; Bases de datos</h3>
+<ul class="stack-list">
+<li>Java / Spring Boot<span class="stack-note">REST APIs</span></li>
+<li>PostgreSQL</li>
+<li>Supabase</li>
+<li>SQL Server</li>
+</ul>
+</div>
 
-          <div class="stack-block">
-            <h3 class="stack-heading">Automatización</h3>
-            <ul class="stack-list">
-              <li>n8n<span class="stack-note">flujos multi-nodo, webhooks</span></li>
-            </ul>
-          </div>
+<div class="stack-block">
+<h3 class="stack-heading" data-i18n="stack-h4">Automatización</h3>
+<ul class="stack-list">
+<li>n8n<span class="stack-note">flujos multi-nodo, webhooks</span></li>
+</ul>
+</div>
 
-          <div class="stack-block">
-            <h3 class="stack-heading">Otros</h3>
-            <ul class="stack-list">
-              <li>Git / GitHub</li>
-              <li>Cloud<span class="stack-note">Render, Neon, Supabase</span></li>
-            </ul>
-          </div>
+<div class="stack-block">
+<h3 class="stack-heading" data-i18n="stack-h5">Otros</h3>
+<ul class="stack-list">
+<li>Git / GitHub</li>
+<li>Cloud<span class="stack-note">Render, Neon, Supabase</span></li>
+</ul>
+</div>
 
-        </div>
-      </div>
-    </section>
+</div>
+</div>
+</section>
 
-    <section class="section" id="certificaciones">
-      <div class="container">
-        <h2 class="section-label">Certificaciones</h2>
+<section class="section" id="certificaciones">
+<div class="container">
+<h2 class="section-label" data-i18n="label-certs">Certificaciones</h2>
 
-        <div class="cert cert--featured">
-          <p class="cert-featured-label">Certificación destacada</p>
-          <div class="cert-header">
-            <a href="https://coursera.org/verify/professional-cert/UPWZI5X8UCT7"
-               class="cert-name"
-               target="_blank"
-               rel="noopener noreferrer">Microsoft Python Development Professional Certificate</a>
-            <span class="cert-issuer">Microsoft / Coursera &middot; Octubre 2025</span>
-          </div>
-          <p class="cert-desc">
-            Especialización de 6 cursos &mdash; fundamentos de Python, análisis y visualización
-            de datos, automatización y scripting, desarrollo web, técnicas avanzadas de Python
-            y desarrollo de proyectos.
-          </p>
-        </div>
+<div class="cert cert--featured">
+<p class="cert-featured-label" data-i18n="cert-featured-label">Certificación destacada</p>
+<div class="cert-header">
+<a href="https://coursera.org/verify/professional-cert/UPWZI5X8UCT7"
+class="cert-name"
+target="_blank"
+rel="noopener noreferrer">Microsoft Python Development Professional Certificate<span class="link-icon" aria-hidden="true">↗</span></a>
+<span class="cert-issuer" data-i18n="cert-issuer-1">Microsoft / Coursera &middot; Octubre 2025</span>
+</div>
+<p class="cert-desc" data-i18n="cert-desc-1">
+Especialización de 6 cursos &mdash; fundamentos de Python, análisis y visualización
+de datos, automatización y scripting, desarrollo web, técnicas avanzadas de Python
+y desarrollo de proyectos.
+</p>
+</div>
 
-        <ul class="cert-list">
-          <li class="cert-list-item">
-            <span class="cert-list-name"><a href="https://www.coursera.org/account/accomplishments/verify/J56BVIBQV27I?utm_product=course" target="_blank" rel="noopener noreferrer">SQL for Data Science</a></span>
-            <span class="cert-list-issuer">University of California, Davis / Coursera</span>
-          </li>
-          <li class="cert-list-item">
-            <span class="cert-list-name"><a href="https://www.coursera.org/account/accomplishments/verify/68XY840116OE" target="_blank" rel="noopener noreferrer">Excel Skills for Business: Intermediate I</a></span>
-            <span class="cert-list-issuer">Macquarie University / Coursera</span>
-          </li>
-        </ul>
+<ul class="cert-list">
+<li class="cert-list-item">
+<span class="cert-list-name"><a href="https://www.coursera.org/account/accomplishments/verify/J56BVIBQV27I?utm_product=course" target="_blank" rel="noopener noreferrer">SQL for Data Science<span class="link-icon" aria-hidden="true">↗</span></a></span>
+<span class="cert-list-issuer">University of California, Davis / Coursera</span>
+</li>
+<li class="cert-list-item">
+<span class="cert-list-name"><a href="https://www.coursera.org/account/accomplishments/verify/68XY840116OE" target="_blank" rel="noopener noreferrer">Excel Skills for Business: Intermediate I<span class="link-icon" aria-hidden="true">↗</span></a></span>
+<span class="cert-list-issuer">Macquarie University / Coursera</span>
+</li>
+</ul>
 
-      </div>
-    </section>
+</div>
+</section>
 
-    <section class="section" id="proyectos">
-      <div class="container">
-        <h2 class="section-label">Proyectos</h2>
-        <div class="projects-list">
+<section class="section" id="proyectos">
+<div class="container">
+<h2 class="section-label" data-i18n="label-projects">Proyectos</h2>
+<div class="projects-list">
 
-          <article class="project project--featured">
-            <p class="project-featured-label">Proyecto destacado</p>
-            <div class="project-header">
-              <div class="project-title-line">
-                <span class="project-num">01</span>
-                <h3 class="project-title">AuraHealth</h3>
-              </div>
-              <span class="project-tag">Plataforma de Salud &middot; Full-Stack</span>
-            </div>
-            <p class="project-desc">
-              Diseño de esquema relacional de 14 entidades en PostgreSQL, API REST desplegada en la
-              nube (Render/Neon) y documentada con Swagger/OpenAPI. Liderazgo técnico de equipo
-              bajo estándares ABET/ICACIT.
-            </p>
-            <p class="project-stack">
-              <span class="stack-key">Stack:</span>
-              Java / Spring Boot &middot; PostgreSQL &middot; Render &middot; Neon &middot; Swagger/OpenAPI
-            </p>
-            <a href="https://github.com/JoCF04/AuraHealth-App-Web" class="project-repo" target="_blank" rel="noopener noreferrer">Ver repositorio &rarr;</a>
-          </article>
+<article class="project project--featured">
+<p class="project-featured-label" data-i18n="project-featured-label">Proyecto destacado</p>
+<div class="project-header">
+<div class="project-title-line">
+<span class="project-num">01</span>
+<h3 class="project-title">AuraHealth</h3>
+</div>
+<span class="project-tag" data-i18n="proj1-tag">Plataforma de Salud &middot; Full-Stack</span>
+</div>
+<p class="project-desc" data-i18n="proj1-desc">
+Diseño de esquema relacional de 14 entidades en PostgreSQL, API REST desplegada en la
+nube (Render/Neon) y documentada con Swagger/OpenAPI. Liderazgo técnico de equipo
+bajo estándares ABET/ICACIT.
+</p>
+<p class="project-stack">
+<span class="stack-key">Stack:</span>
+Java / Spring Boot &middot; PostgreSQL &middot; Render &middot; Neon &middot; Swagger/OpenAPI
+</p>
+<a href="https://github.com/JoCF04/AuraHealth-App-Web" class="project-repo" target="_blank" rel="noopener noreferrer"><span data-i18n="repo-link-1">Ver repositorio</span> <span class="link-icon" aria-hidden="true">↗</span></a>
+</article>
 
-          <article class="project project--featured">
-            <p class="project-featured-label">Proyecto destacado</p>
-            <div class="project-header">
-              <div class="project-title-line">
-                <span class="project-num">02</span>
-                <h3 class="project-title">Modelo Predictivo de Riesgo de Fuga</h3>
-              </div>
-              <span class="project-tag">Customer Churn &middot; Machine Learning</span>
-            </div>
-            <p class="project-desc">
-              Regresión logística sobre +3,000 registros de clientes. Exactitud del modelo: 86.6%.
-              Preprocesamiento, análisis exploratorio y visualización integrados en un pipeline
-              completo.
-            </p>
-            <p class="project-stack">
-              <span class="stack-key">Stack:</span>
-              Python &middot; Scikit-Learn &middot; Pandas &middot; Matplotlib
-            </p>
-            <a href="https://github.com/JoCF04/churn-risk-prediction-model" class="project-repo" target="_blank" rel="noopener noreferrer">Ver repositorio &rarr;</a>
-          </article>
+<article class="project project--featured">
+<p class="project-featured-label" data-i18n="project-featured-label">Proyecto destacado</p>
+<div class="project-header">
+<div class="project-title-line">
+<span class="project-num">02</span>
+<h3 class="project-title">Modelo Predictivo de Riesgo de Fuga</h3>
+</div>
+<span class="project-tag" data-i18n="proj2-tag">Customer Churn &middot; Machine Learning</span>
+</div>
+<p class="project-desc" data-i18n="proj2-desc">
+Regresión logística sobre +3,000 registros de clientes. Exactitud del modelo: 86.6%.
+Preprocesamiento, análisis exploratorio y visualización integrados en un pipeline
+completo.
+</p>
+<p class="project-stack">
+<span class="stack-key">Stack:</span>
+Python &middot; Scikit-Learn &middot; Pandas &middot; Matplotlib
+</p>
+<a href="https://github.com/JoCF04/churn-risk-prediction-model" class="project-repo" target="_blank" rel="noopener noreferrer"><span data-i18n="repo-link-1">Ver repositorio</span> <span class="link-icon" aria-hidden="true">↗</span></a>
+</article>
 
-          <article class="project">
-            <div class="project-header">
-              <div class="project-title-line">
-                <span class="project-num">03</span>
-                <h3 class="project-title">UOrganizer</h3>
-              </div>
-              <span class="project-tag">App de Organización Académica</span>
-            </div>
-            <p class="project-desc">
-              Migración de estructuras de datos heredadas a tablas relacionales en Supabase. Diseño
-              de arquitectura de datos para app móvil. Fase alfa con ~90% de avance.
-            </p>
-            <p class="project-stack">
-              <span class="stack-key">Stack:</span>
-              Supabase &middot; JavaScript &middot; React Native / Expo &middot; Zustand
-            </p>
-            <a href="https://github.com/JoCF04/UOrganizer---App-ios-android-" class="project-repo" target="_blank" rel="noopener noreferrer">Ver repositorio &rarr;</a>
-          </article>
+<article class="project">
+<div class="project-header">
+<div class="project-title-line">
+<span class="project-num">03</span>
+<h3 class="project-title">UOrganizer</h3>
+</div>
+<span class="project-tag" data-i18n="proj3-tag">App de Organización Académica</span>
+</div>
+<p class="project-desc" data-i18n="proj3-desc">
+Migración de estructuras de datos heredadas a tablas relacionales en Supabase. Diseño
+de arquitectura de datos para app móvil. Fase alfa con ~90% de avance.
+</p>
+<p class="project-stack">
+<span class="stack-key">Stack:</span>
+Supabase &middot; JavaScript &middot; React Native / Expo &middot; Zustand
+</p>
+<a href="https://github.com/JoCF04/UOrganizer---App-ios-android-" class="project-repo" target="_blank" rel="noopener noreferrer"><span data-i18n="repo-link-1">Ver repositorio</span> <span class="link-icon" aria-hidden="true">↗</span></a>
+</article>
 
-          <article class="project">
-            <div class="project-header">
-              <div class="project-title-line">
-                <span class="project-num">04</span>
-                <h3 class="project-title">EliteDrive</h3>
-              </div>
-              <span class="project-tag">Automatización de Flujos con IA</span>
-            </div>
-            <p class="project-desc">
-              Flujos multi-nodo con n8n integrando webhooks para respuestas en tiempo real,
-              reduciendo la intervención manual en el proceso de atención al cliente.
-            </p>
-            <p class="project-stack">
-              <span class="stack-key">Stack:</span>
-              n8n &middot; Webhooks &middot; Automatización de procesos
-            </p>
-          </article>
+<article class="project">
+<div class="project-header">
+<div class="project-title-line">
+<span class="project-num">04</span>
+<h3 class="project-title">EliteDrive</h3>
+</div>
+<span class="project-tag" data-i18n="proj4-tag">Automatización de Flujos con IA</span>
+</div>
+<p class="project-desc" data-i18n="proj4-desc">
+Flujos multi-nodo con n8n integrando webhooks para respuestas en tiempo real,
+reduciendo la intervención manual en el proceso de atención al cliente.
+</p>
+<p class="project-stack">
+<span class="stack-key">Stack:</span>
+n8n &middot; Webhooks &middot; Automatización de procesos
+</p>
+</article>
 
-          <article class="project">
-            <div class="project-header">
-              <div class="project-title-line">
-                <span class="project-num">05</span>
-                <h3 class="project-title">Análisis de Exportaciones de Cobre</h3>
-              </div>
-              <span class="project-tag">Estadística Aplicada &middot; Business Intelligence</span>
-            </div>
-            <p class="project-desc">
-              Diseño de indicadores y reportes a partir de datos reales de exportación (ADEX).
-              Muestreo sistemático y estratificado, estructuración de base de datos y dashboards
-              de apoyo.
-            </p>
-            <p class="project-stack">
-              <span class="stack-key">Stack:</span>
-              Excel avanzado &middot; Estadística aplicada
-            </p>
-            <a href="https://github.com/JoCF04/analisis-exportaciones-cobre" class="project-repo" target="_blank" rel="noopener noreferrer">Ver análisis &rarr;</a>
-          </article>
+<article class="project">
+<div class="project-header">
+<div class="project-title-line">
+<span class="project-num">05</span>
+<h3 class="project-title">Análisis de Exportaciones de Cobre</h3>
+</div>
+<span class="project-tag" data-i18n="proj5-tag">Estadística Aplicada &middot; Business Intelligence</span>
+</div>
+<p class="project-desc" data-i18n="proj5-desc">
+Diseño de indicadores y reportes a partir de datos reales de exportación (ADEX).
+Muestreo sistemático y estratificado, estructuración de base de datos y dashboards
+de apoyo.
+</p>
+<p class="project-stack">
+<span class="stack-key">Stack:</span>
+Excel avanzado &middot; Estadística aplicada
+</p>
+<a href="https://github.com/JoCF04/analisis-exportaciones-cobre" class="project-repo" target="_blank" rel="noopener noreferrer"><span data-i18n="repo-link-2">Ver análisis</span> <span class="link-icon" aria-hidden="true">↗</span></a>
+</article>
 
-        </div>
-      </div>
-    </section>
+</div>
+</div>
+</section>
 
-  </main>
+</main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-layout">
-        <div class="footer-links">
-          <a href="mailto:josedfalcon10@gmail.com">josedfalcon10@gmail.com</a>
-          <a href="https://github.com/JoCF04" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://linkedin.com/in/jose-falcon-451487257" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        </div>
-        <p class="footer-copy">&copy; 2026 José Falcón</p>
-      </div>
-    </div>
-  </footer>
+<footer class="site-footer">
+<div class="container">
+<div class="footer-layout">
+<div class="footer-links">
+<a href="mailto:josedfalcon10@gmail.com">josedfalcon10@gmail.com</a>
+<a href="https://github.com/JoCF04" target="_blank" rel="noopener noreferrer">GitHub</a>
+<a href="https://linkedin.com/in/jose-falcon-451487257" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+</div>
+<p class="footer-copy">&copy; 2026 José Falcón</p>
+</div>
+</div>
+</footer>
+
+<script>
+(function () {
+  var translations = {
+    es: {
+      "site-meta": "Ingeniería de Sistemas · 7mo ciclo · UPC · Lima, Perú",
+      "label-about": "Sobre mí",
+      "about-text": "Estudiante de 7mo ciclo de Ingeniería de Sistemas en UPC. He liderado proyectos de desarrollo de software y análisis de datos aplicados a casos reales, trabajando en un rango que va desde backend y bases de datos hasta modelos predictivos y dashboards de gestión",
+      "about-lang": "Inglés avanzado — Idiomas Católica",
+      "label-stack": "Stack técnico",
+      "stack-h1": "Data Analytics & BI",
+      "stack-h2": "Programación",
+      "stack-h3": "Backend & Bases de datos",
+      "stack-h4": "Automatización",
+      "stack-h5": "Otros",
+      "stack-note-excel": "macros, tablas dinámicas",
+      "stack-kpi": "Indicadores de gestión",
+      "label-certs": "Certificaciones",
+      "cert-featured-label": "Certificación destacada",
+      "cert-issuer-1": "Microsoft / Coursera · Octubre 2025",
+      "cert-desc-1": "Especialización de 6 cursos — fundamentos de Python, análisis y visualización de datos, automatización y scripting, desarrollo web, técnicas avanzadas de Python y desarrollo de proyectos.",
+      "label-projects": "Proyectos",
+      "project-featured-label": "Proyecto destacado",
+      "proj1-tag": "Plataforma de Salud · Full-Stack",
+      "proj1-desc": "Diseño de esquema relacional de 14 entidades en PostgreSQL, API REST desplegada en la nube (Render/Neon) y documentada con Swagger/OpenAPI. Liderazgo técnico de equipo bajo estándares ABET/ICACIT.",
+      "proj2-tag": "Customer Churn · Machine Learning",
+      "proj2-desc": "Regresión logística sobre +3,000 registros de clientes. Exactitud del modelo: 86.6%. Preprocesamiento, análisis exploratorio y visualización integrados en un pipeline completo.",
+      "proj3-tag": "App de Organización Académica",
+      "proj3-desc": "Migración de estructuras de datos heredadas a tablas relacionales en Supabase. Diseño de arquitectura de datos para app móvil. Fase alfa con ~90% de avance.",
+      "proj4-tag": "Automatización de Flujos con IA",
+      "proj4-desc": "Flujos multi-nodo con n8n integrando webhooks para respuestas en tiempo real, reduciendo la intervención manual en el proceso de atención al cliente.",
+      "proj5-tag": "Estadística Aplicada · Business Intelligence",
+      "proj5-desc": "Diseño de indicadores y reportes a partir de datos reales de exportación (ADEX). Muestreo sistemático y estratificado, estructuración de base de datos y dashboards de apoyo.",
+      "repo-link-1": "Ver repositorio",
+      "repo-link-2": "Ver análisis"
+    },
+    en: {
+      "site-meta": "Systems Engineering · 7th semester · UPC · Lima, Peru",
+      "label-about": "About Me",
+      "about-text": "7th-semester Systems Engineering student at UPC. I've led software development and data analysis projects applied to real-world cases, working across a range from backend and databases to predictive models and management dashboards.",
+      "about-lang": "Advanced English — Idiomas Católica",
+      "label-stack": "Technical Stack",
+      "stack-h1": "Data Analytics & BI",
+      "stack-h2": "Programming",
+      "stack-h3": "Backend & Databases",
+      "stack-h4": "Automation",
+      "stack-h5": "Other",
+      "stack-note-excel": "macros, pivot tables",
+      "stack-kpi": "Management KPIs",
+      "label-certs": "Certifications",
+      "cert-featured-label": "Featured certification",
+      "cert-issuer-1": "Microsoft / Coursera · October 2025",
+      "cert-desc-1": "6-course specialization — Python fundamentals, data analysis and visualization, automation and scripting, web development, advanced Python techniques, and project development.",
+      "label-projects": "Projects",
+      "project-featured-label": "Featured project",
+      "proj1-tag": "Health Platform · Full-Stack",
+      "proj1-desc": "Designed a 14-entity relational schema in PostgreSQL and a REST API deployed to the cloud (Render/Neon), documented with Swagger/OpenAPI. Led the technical team under ABET/ICACIT standards.",
+      "proj2-tag": "Customer Churn · Machine Learning",
+      "proj2-desc": "Logistic regression over 3,000+ customer records. Model accuracy: 86.6%. Preprocessing, exploratory analysis and visualization integrated into a full pipeline.",
+      "proj3-tag": "Academic Organization App",
+      "proj3-desc": "Migrated legacy data structures to relational tables in Supabase. Designed the data architecture for a mobile app. Alpha phase, ~90% complete.",
+      "proj4-tag": "AI Workflow Automation",
+      "proj4-desc": "Multi-node flows built with n8n integrating webhooks for real-time responses, reducing manual intervention in the customer service process.",
+      "proj5-tag": "Applied Statistics · Business Intelligence",
+      "proj5-desc": "Designed KPIs and reports from real export data (ADEX). Systematic and stratified sampling, database structuring and supporting dashboards.",
+      "repo-link-1": "View repository",
+      "repo-link-2": "View analysis"
+    }
+  };
+
+  var toggle = document.getElementById("langToggle");
+  var STORAGE_KEY = "site-lang";
+
+  function applyLang(lang) {
+    var dict = translations[lang];
+    document.querySelectorAll("[data-i18n]").forEach(function (el) {
+      var key = el.getAttribute("data-i18n");
+      if (dict[key]) el.textContent = dict[key];
+    });
+    document.documentElement.setAttribute("lang", lang);
+    toggle.textContent = lang === "es" ? "EN" : "ES";
+    try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
+  }
+
+  var saved = null;
+  try { saved = localStorage.getItem(STORAGE_KEY); } catch (e) {}
+  var current = saved === "en" ? "en" : "es";
+  applyLang(current);
+
+  toggle.addEventListener("click", function () {
+    current = current === "es" ? "en" : "es";
+    applyLang(current);
+  });
+})();
+</script>
 
 </body>
 </html>
